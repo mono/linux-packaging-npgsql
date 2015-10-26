@@ -1,6 +1,5 @@
 npgsql (2.2.7+dfsg-1) unstable; urgency=low
 
-  * Initial release. Mono 4.0 no longer bundles Npgsql, but some apps
-    in the archive expect it to be available.
+  * Initial release. (Closes: #803057)
 
  -- Jo Shields <directhex@apebox.org>  Mon, 26 Oct 2015 10:01:20 +0000
