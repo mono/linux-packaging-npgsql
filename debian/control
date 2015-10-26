@@ -1,0 +1,33 @@
+Source: npgsql
+Priority: optional
+Maintainer: Jo Shields <directhex@apebox.org>
+Build-Depends: debhelper (>= 7.0.50~), cli-common-dev, mono-devel (>= 4.0)
+Standards-Version: 3.9.4
+Section: libs
+Homepage: http://www.npgsql.org/
+Vcs-Git: git://git.debian.org/git/pkg-cli-libs/packages/npgsql.git
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-cli-libs/packages/npgsql.git/
+
+Package: libnpgsql2.2-cil
+Section: cli-mono
+Architecture: all
+Depends: ${cli:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Description: PostgreSQL connection library for Mono
+ Npgsql is the .NET data provider for PostgreSQL. It allows any 
+ program developed for .NET framework to access a PostgreSQL 
+ database server. It is implemented in 100% C# code. PostgreSQL 
+ versions since 9.0 are officially supported, others may work.
+
+Package: libnpgsql-cil-dev
+Section: cli-mono
+Architecture: all
+Depends: libnpgsql2.2-cil (= ${source:Version})
+Description: PostgreSQL connection library for Mono - devel package
+ Npgsql is the .NET data provider for PostgreSQL. It allows any 
+ program developed for .NET framework to access a PostgreSQL 
+ database server. It is implemented in 100% C# code. PostgreSQL 
+ versions since 9.0 are officially supported, others may work.
+ .
+ This package contains development files for Npgsql and will always
+ pull in the current default version - and should be used for compilation.
+
