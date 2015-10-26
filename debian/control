@@ -1,6 +1,7 @@
 Source: npgsql
 Priority: optional
-Maintainer: Jo Shields <directhex@apebox.org>
+Maintainer: Debian CLI Libraries Team <pkg-cli-libs-team@lists.alioth.debian.org>
+Uploaders: Jo Shields <directhex@apebox.org>
 Build-Depends: debhelper (>= 7.0.50~), cli-common-dev, mono-devel (>= 4.0)
 Standards-Version: 3.9.5
 Section: libs
