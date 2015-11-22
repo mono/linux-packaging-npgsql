@@ -4,6 +4,8 @@ Source: http://www.npgsql.org/
 
 Files: *
 Copyright: 2002-2013, The Npgsql Development Team
+           2004 Emiliano Necciari
+           2014 David Karlaš
 License: 
  Permission to use, copy, modify, and distribute this software and its 
  documentation for any purpose, without fee, and without a written 
@@ -21,3 +23,140 @@ License:
  AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE PROVIDED HEREUNDER IS ON 
  AN "AS IS" BASIS, AND THE NPGSQL DEVELOPMENT TEAM HAS NO OBLIGATIONS TO 
  PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+
+Files: tests/ConnectionTests.cs
+       tests/CommandTests.cs
+       tests/DataAdapterTests.cs
+       tests/TestBase.cs
+       tests/old/noninteractive/test_preparedstatements.cs
+       tests/old/noninteractive/test_5.cs
+       tests/old/noninteractive/test_1.cs
+       tests/old/noninteractive/test_4.cs
+       tests/old/noninteractive/Makefile
+       tests/old/noninteractive/test_2.cs
+       tests/old/noninteractive/test_executescalar.cs
+       tests/old/noninteractive/test_executereader.cs
+       tests/old/noninteractive/test_3.cs
+       tests/old/noninteractive/test_executenonquery.cs
+       tests/old/ImageMake/Form1.vb
+       tests/old/frmMain.cs
+       tests/old/AssemblyInfo.cs
+       tests/ExceptionTests.cs
+       tests/DataReaderTests.cs
+       tests/AssemblyInfo.cs
+Copyright: 2002 The Npgsql Development Team
+License: LGPL-2.1+
+ See `/usr/share/common-licenses/LGPL'.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Files: tests/old/noninteractive/test_copy.cs
+       Npgsql/Npgsql/LinqBridge-1.3.cs
+Copyright: 2007 The Npgsql Development Team
+           2007 Atif Aziz
+           2007 Joseph Albahari
+License: BSD
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. Neither the name of the University nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+Files: tests/NpgsqlParameterTests.cs
+       Npgsql/Npgsql/HashAlgorithm.cs
+       Npgsql/Npgsql/MD5.cs
+       Npgsql/Npgsql/MD5CryptoServiceProvider.cs
+Copyright: 2001 Matthew S. Ford.
+           2002 Motus Technologies Inc. (http://www.motus.com)
+           2004 Novell Inc.
+License: X11
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to
+ deal in the Software without restriction, including without limitation the
+ rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+ sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+ X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+ AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNEC-
+ TION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ .
+ Except as contained in this notice, the name of the X Consortium shall not
+ be used in advertising or otherwise to promote the sale, use or other deal-
+ ings in this Software without prior written authorization from the X Consor-
+ tium.
+
+Files: Npgsql/Npgsql.Designer/Editors/TableDesignerDoc.cs
+       Npgsql/Npgsql.Designer/Editors/ViewDesignerDoc.cs
+       Npgsql/Npgsql.Designer/Editors/AutoCompleteColumn.cs
+       Npgsql/Npgsql.Designer/NpgsqlDataObjectIdentifierResolver.cs
+       Npgsql/Npgsql.Designer/ChangePasswordDialog.cs
+       Npgsql/Npgsql.Designer/NpgsqlPackage.cs
+       Npgsql/Npgsql.Designer/TableNameDialog.cs
+       Npgsql/Npgsql.Designer/ChangeScriptDialog.cs
+       Npgsql/Npgsql.Designer/NpgsqlAdapterDesigner.cs
+       Npgsql/Npgsql.Designer/NpgsqlConnectionProperties.cs
+       Npgsql/Npgsql.Designer/NpgsqlDataAdapterToolboxItem.cs
+       Npgsql/Npgsql.Designer/NpgsqlDataViewSupport2005.xml
+       Npgsql/Npgsql.Designer/NpgsqlProviderObjectFactory.cs
+       Npgsql/Npgsql.Designer/NpgsqlConnectionStringEditor.cs
+       Npgsql/Npgsql.Designer/NpgsqlDataObjectSupport.cs
+       Npgsql/Npgsql.Designer/NpgsqlDataViewSupport2008.xml
+       Npgsql/Npgsql.Designer/NpgsqlDataSourceInformation.cs
+       Npgsql/Npgsql.Designer/NpgsqlDataViewSupport.cs
+       Npgsql/Npgsql.Designer/NpgsqlDataObjectSupport.xml
+       Npgsql/Npgsql.Designer/NpgsqlDataConnectionSupport.cs
+       Npgsql/Npgsql.Designer/NpgsqlCommandHandler.cs
+       Npgsql/Npgsql.Designer/NpgsqlConnectionUIControl.cs
+       Npgsql/Npgsql.Designer/Design/Trigger.cs
+       Npgsql/Npgsql.Designer/Design/SimpleTokenizer.cs
+       Npgsql/Npgsql.Designer/Design/PrimaryKey.cs
+       Npgsql/Npgsql.Designer/Design/Index.cs
+       Npgsql/Npgsql.Designer/Design/Check.cs
+       Npgsql/Npgsql.Designer/Design/Table.cs
+       Npgsql/Npgsql.Designer/Design/View.cs
+       Npgsql/Npgsql.Designer/Design/ForeignKey.cs
+       Npgsql/Npgsql.Designer/Design/Column.cs
+       Npgsql/Npgsql.Designer/Design/Unique.cs
+       Npgsql/Npgsql.Designer/NpgsqlCommandDesigner.cs
+Copyright: Robert Simpson (robert@blackcastlesoft.com)
+License: public-domain
+ The files listed have been put on the public domain by the sqlite3
+ contributors.
+
+Files: Npgsql/Npgsql.Designer/CtcComponents/Guids.h
+       Npgsql/Npgsql.Designer/CtcComponents/PkgCmd.ctc
+       Npgsql/Npgsql.Designer/CtcComponents/PkgCmdID.h
+Copyright: Microsoft Corporation
+ This code is licensed under the Visual Studio SDK license terms.
+ THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF
+ ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY
+ IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR
+ PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
+
