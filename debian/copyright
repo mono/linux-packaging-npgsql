@@ -6,7 +6,7 @@ Files: *
 Copyright: 2002-2013, The Npgsql Development Team
            2004 Emiliano Necciari
            2014 David Karlaš
-License: 
+License: npgsql
  Permission to use, copy, modify, and distribute this software and its 
  documentation for any purpose, without fee, and without a written 
  agreement is hereby granted, provided that the above copyright notice 
@@ -118,14 +118,3 @@ Copyright: Robert Simpson (robert@blackcastlesoft.com)
 License: public-domain
  The files listed have been put on the public domain by the sqlite3
  contributors.
-
-Files: Npgsql/Npgsql.Designer/CtcComponents/Guids.h
-       Npgsql/Npgsql.Designer/CtcComponents/PkgCmd.ctc
-       Npgsql/Npgsql.Designer/CtcComponents/PkgCmdID.h
-Copyright: Microsoft Corporation
- This code is licensed under the Visual Studio SDK license terms.
- THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF
- ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY
- IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR
- PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
-
