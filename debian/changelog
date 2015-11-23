@@ -1,4 +1,4 @@
-npgsql (2.2.7+dfsg-1) unstable; urgency=low
+npgsql (2.2.7+dfsg3-1) unstable; urgency=low
 
   * Initial release. (Closes: #803057)
 
