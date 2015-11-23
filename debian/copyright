@@ -24,38 +24,8 @@ License:
  AN "AS IS" BASIS, AND THE NPGSQL DEVELOPMENT TEAM HAS NO OBLIGATIONS TO 
  PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
-Files: tests/ConnectionTests.cs
-       tests/CommandTests.cs
-       tests/DataAdapterTests.cs
-       tests/TestBase.cs
-       tests/old/noninteractive/test_preparedstatements.cs
-       tests/old/noninteractive/test_5.cs
-       tests/old/noninteractive/test_1.cs
-       tests/old/noninteractive/test_4.cs
-       tests/old/noninteractive/Makefile
-       tests/old/noninteractive/test_2.cs
-       tests/old/noninteractive/test_executescalar.cs
-       tests/old/noninteractive/test_executereader.cs
-       tests/old/noninteractive/test_3.cs
-       tests/old/noninteractive/test_executenonquery.cs
-       tests/old/ImageMake/Form1.vb
-       tests/old/frmMain.cs
-       tests/old/AssemblyInfo.cs
-       tests/ExceptionTests.cs
-       tests/DataReaderTests.cs
-       tests/AssemblyInfo.cs
-Copyright: 2002 The Npgsql Development Team
-License: LGPL-2.1+
- See `/usr/share/common-licenses/LGPL'.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
-Files: tests/old/noninteractive/test_copy.cs
-       Npgsql/Npgsql/LinqBridge-1.3.cs
-Copyright: 2007 The Npgsql Development Team
-           2007 Atif Aziz
+Files: Npgsql/Npgsql/LinqBridge-1.3.cs
+Copyright: 2007 Atif Aziz
            2007 Joseph Albahari
 License: BSD
  Redistribution and use in source and binary forms, with or without
@@ -82,8 +52,7 @@ License: BSD
  OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  SUCH DAMAGE.
 
-Files: tests/NpgsqlParameterTests.cs
-       Npgsql/Npgsql/HashAlgorithm.cs
+Files: Npgsql/Npgsql/HashAlgorithm.cs
        Npgsql/Npgsql/MD5.cs
        Npgsql/Npgsql/MD5CryptoServiceProvider.cs
 Copyright: 2001 Matthew S. Ford.
