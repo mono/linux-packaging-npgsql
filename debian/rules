@@ -25,6 +25,7 @@ get-orig-source:
 	rm -fr npgsql-$(upstream_version)/.nuget
 	rm -fr npgsql-$(upstream_version)/.teamcity
 	rm -fr npgsql-$(upstream_version)/lib
+	rm -fr npgsql-$(upstream_version)/tests
 	rm -fr npgsql-$(upstream_version)/Tools
 	tar cfz npgsql_$(upstream_version)+dfsg.orig.tar.gz npgsql-$(upstream_version)/
 	rm -rf npgsql-$(upstream_version)/
