@@ -14,6 +14,14 @@ Summary:        PostgreSQL connector for .NET
 %description
 NPGSQL is an ADO.NET driver for PostgreSQL.
 
+%package devel
+Summary:        Development files for Npgsql
+Group:          System/Libraries
+Requires:       npgsql = %{version}
+
+%description devel
+NPGSQL is an ADO.NET driver for PostgreSQL - pkgconfig file
+
 %prep
 %setup
 
