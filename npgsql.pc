@@ -1,0 +1,8 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+
+Name: Npgsql
+Description: Npgsql - PostgreSQL connector for CLI
+Version: 2.2.7
+Libs: -r:${libdir}/mono/npgsql/Npgsql.dll

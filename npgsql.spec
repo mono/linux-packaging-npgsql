@@ -6,7 +6,8 @@ Url:            http://www.npgsql.org/
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 BuildRequires:  mono-devel
 BuildArch:	    noarch
-Source:         %{name}_%{version}+dfsg3.orig.tar.gz
+Source0:        %{name}_%{version}+dfsg3.orig.tar.gz
+Source1:	npgsql.pc
 Group:          System/Libraries
 Summary:        PostgreSQL connector for .NET
 
@@ -33,5 +34,9 @@ rm -rf "$RPM_BUILD_ROOT"
 %{_prefix}/lib/mono/gac/Npgsql/*__*
 %dir %{_prefix}/lib/mono/npgsql
 %{_prefix}/lib/mono/npgsql/Npgsql.dll
+
+%files devel
+%defattr(-,root,root)
+%source1
 
 %changelog
