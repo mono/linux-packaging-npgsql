@@ -1,6 +1,6 @@
 Name:           npgsql
 Version:        2.2.7
-Release:        0.xamarin.1
+Release:        0.xamarin.2
 License:        npgsql
 Url:            http://www.npgsql.org/
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
