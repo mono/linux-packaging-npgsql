@@ -1,3 +1,9 @@
+npgsql (2.2.7+dfsg3-0xamarin1) wheezy; urgency=medium
+
+  * Upload to mono-project.com
+
+ -- Jo Shields <directhex@apebox.org>  Mon, 15 Feb 2016 13:27:51 +0000
+
 npgsql (2.2.7+dfsg3-1) unstable; urgency=low
 
   * Initial release. (Closes: #803057)
