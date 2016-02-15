@@ -30,6 +30,8 @@ xbuild Npgsql/Npgsql.csproj /property:Configuration=Release-net45
 
 %install
 gacutil -i Npgsql/bin/Release-net45/Npgsql.dll -package npgsql -root ${RPM_BUILD_ROOT}%{_prefix}/lib
+%{__mkdir_p} %{buildroot}%{_datadir}/pkgconfig
+%{__install} -m0644 %{SOURCE1} %{buildroot}%{_datadir}/pkgconfig/
 
 %clean
 xbuild Npgsql/Npgsql.csproj /property:Configuration=Release-net45 /target:clean
@@ -45,6 +47,6 @@ rm -rf "$RPM_BUILD_ROOT"
 
 %files devel
 %defattr(-,root,root)
-%source1
+%_datadir/pkgconfig/npgsql.pc
 
 %changelog
