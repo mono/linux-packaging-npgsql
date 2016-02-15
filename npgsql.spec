@@ -14,7 +14,7 @@ Summary:        PostgreSQL connector for .NET
 NPGSQL is an ADO.NET driver for PostgreSQL.
 
 %prep
-%setup -c
+%setup
 
 %build
 xbuild Npgsql/Npgsql.csproj /property:Configuration=Release-net45
@@ -30,8 +30,8 @@ rm -rf "$RPM_BUILD_ROOT"
 %defattr(-,root,root)
 %doc README.md
 %dir %{_prefix}/lib/mono/gac/Npgsql/
-%{_prefix}/lib/mono/gac/Npgsql/%{version}.0__*
+%{_prefix}/lib/mono/gac/Npgsql/*__*
 %dir %{_prefix}/lib/mono/npgsql
-%{_prefix}/lib/mono/npgsql/PostgreSQL.Data.dll
+%{_prefix}/lib/mono/npgsql/Npgsql.dll
 
 %changelog
