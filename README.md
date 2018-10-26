@@ -1,12 +1,12 @@
 Npgsql - .NET Data Provider for PostgreSQL
 =============
 
-###What Is Npgsql?
+### What Is Npgsql?
 
 Npgsql is a .Net Data Provider for PostgreSQL. It allows you to connect and interact with PostgreSQL server using .NET.
 
 
-###Project Information
+### Project Information
 
 +   [Offical Site][1]
 +   [Npgsql source code @ GitHub][2]
@@ -14,7 +14,7 @@ Npgsql is a .Net Data Provider for PostgreSQL. It allows you to connect and inte
 +   [Wiki - Usage and other information][4]
 
 
-###Developers
+### Developers
 
 Developers who contributes to Npgsql currently or in past, in no particular order:
     
@@ -32,11 +32,11 @@ Developers who contributes to Npgsql currently or in past, in no particular orde
 +   Hiroshi Saito
 +   Shay Rojansky
 
-###License
+### License
 
-Refer LICENSE.txt for more information on license terms.
+Refer to `LICENSE.txt` for more information on license terms.
 
-###Code history
+### Code history
 
 On December 2nd, [we committed a change][5] to restructure Npgsql code. This change modified file locations and unfortunately made the complete modification history of those files to not be available anymore through GitHub interface directly. [This stackoverflow post][6] documents a way to access the history before the rename: You just need to access the object tree **before** the rename and then you can see the rest of the file history.
 In the case of this rename, this is the tree: https://github.com/npgsql/Npgsql/tree/2f8928e4dee59275767de0df2ec41a654744a3bc
